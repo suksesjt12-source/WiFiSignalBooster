@@ -26,7 +26,7 @@ Channel recommendations are estimates based only on access points returned by th
 3. When the run succeeds, open it and download the `WiFiSignalBooster-debug-apk` artifact.
 4. Extract the artifact ZIP and install `app-debug.apk`.
 
-Build environment: Java 17, Android Gradle Plugin 9.4.0, Gradle 9.6.0, Android SDK Platform 37, Build Tools 36.0.0.
+Build environment: Java 17, Android Gradle Plugin 9.4.0, Gradle 9.6.0, Android SDK Platform 36, Build Tools 36.0.0.
 
 ## Permissions
 
