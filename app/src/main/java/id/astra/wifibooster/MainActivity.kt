@@ -395,7 +395,7 @@ class MainActivity : Activity() {
     private fun openPrivateDnsSettings() {
         if (Build.VERSION.SDK_INT >= 28) {
             try {
-                startActivity(Intent(Settings.ACTION_PRIVATE_DNS_SETTINGS))
+                startActivity(Intent("android.settings.PRIVATE_DNS_SETTINGS"))
                 return
             } catch (_: Exception) {
                 // Fall through to general settings.
