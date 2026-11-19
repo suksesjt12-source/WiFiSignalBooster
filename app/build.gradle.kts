@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "id.astra.wifibooster"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "id.astra.wifibooster"
